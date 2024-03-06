@@ -1,21 +1,33 @@
 {
   "todos": [
     {
-      "id": 1,
-      "title": "방청소 하기",
-      "content": "내방 깨끗이 청소하기",
+      "id": "a19a130c-04d0-4419-8977-15407ebafa6b",
+      "title": "내방 청소하기",
+      "content": "구석구석",
+      "isDone": false
+    },
+    {
+      "id": "919ef026-866d-47d8-8d4e-dea688d11def",
+      "title": "react query 복습",
+      "content": "익숙해질때까지 복습하기",
+      "isDone": false
+    },
+    {
+      "id": "8e27161f-f416-4750-b466-e157f1ae4e1e",
+      "title": "개인 과제 제출하기",
+      "content": "목요일까지 완성하기",
       "isDone": true
     },
     {
-      "id": 2,
+      "id": "4696a092-64bd-450a-ac5d-c5bdcddf3182",
+      "title": "typescript 공부하기",
+      "content": "typescript와 친해지기",
+      "isDone": false
+    },
+    {
+      "id": "5d63361f-4874-4ae4-8344-dd48ec16c3b8",
       "title": "강아지 산책시키기",
-      "content": "9시전에 산책시키고 오기",
-      "isDone": true
-    },
-    {
-      "id": 3,
-      "title": "ReactQuery 연습하기",
-      "content": "익숙해지도록 연습하기",
+      "content": "아침에 산책 시키고 오기",
       "isDone": false
     }
   ]
