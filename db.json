@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "방청소 하기",
+      "content": "내방 깨끗이 청소하기",
+      "isDone": true
+    },
+    {
+      "id": 2,
+      "title": "강아지 산책시키기",
+      "content": "9시전에 산책시키고 오기",
+      "isDone": true
+    },
+    {
+      "id": 3,
+      "title": "ReactQuery 연습하기",
+      "content": "익숙해지도록 연습하기",
+      "isDone": false
+    }
+  ]
+}
