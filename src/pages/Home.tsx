@@ -2,7 +2,7 @@ import Input from '../components/Input'
 import TodoList from '../components/TodoList'
 import { styled } from 'styled-components'
 
-function Home() {
+function Home () {
   return (
     <Stdiv>
     <Input />
@@ -11,7 +11,7 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
 
 const Stdiv = styled.div`
    max-width: 1200px;

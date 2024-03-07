@@ -1,4 +1,3 @@
-import React from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { getTodos, updateTodo, deleteTodo } from '../api/todos';
 import { Todo } from '../api/todos';

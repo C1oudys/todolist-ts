@@ -12,10 +12,10 @@ export const getTodos = async (): Promise<Todo[]> => {
     const response = await axios.get<Todo[]>(
       `${process.env.REACT_APP_JSON_SERVER_URL}/todos`
     );
-    console.log("받아온 데이터", response.data);
+    // console.log("받아온 데이터", response.data);
     return response.data;
   } catch (error) {
-    console.log(`데이터 불러오기 실패`, error);
+    // console.log(`데이터 불러오기 실패`, error);
     return [];
   }
 };
@@ -34,7 +34,7 @@ export const deleteTodo = async (id: string) => {
     if (!window.confirm(`삭제하시겠습니까?`)) return;
     await axios.delete(`${process.env.REACT_APP_JSON_SERVER_URL}/todos/${id}`);
   } catch (error) {
-    console.log("삭제 실패", error);
+    // console.log("삭제 실패", error);
   }
 };
 

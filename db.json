@@ -4,19 +4,19 @@
       "id": "a19a130c-04d0-4419-8977-15407ebafa6b",
       "title": "내방 청소하기",
       "content": "구석구석",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "919ef026-866d-47d8-8d4e-dea688d11def",
       "title": "react query 복습",
       "content": "익숙해질때까지 복습하기",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "8e27161f-f416-4750-b466-e157f1ae4e1e",
       "title": "개인 과제 제출하기",
       "content": "목요일까지 완성하기",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "4696a092-64bd-450a-ac5d-c5bdcddf3182",
